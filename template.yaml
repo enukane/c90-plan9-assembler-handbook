@@ -1,0 +1,27 @@
+bookname: c90book
+booktitle: "Plan 9 Assembler Handbook"
+subtitle: "8a & 6a"
+language: ja
+aut: "@n_kane"
+prt: Glenda9
+prt_url: http://github.com/enukane/
+date: 2016-08-14
+rights: (C) enukane
+description: Season 2016, C90 book
+debug: true
+
+# Title page is separated from this generation (coverpage.pdf)
+titlepage: false
+# 奥付生成
+colophon: true
+pubhistory: 2016年 08月 14日 第一版発行
+
+toc: true
+toclevel: 3
+secnolevel: 3
+stylesheet: templaste.css
+texstyle: c90book
+texdocumentclass: ["jsbook", "uplatex,a4j,openany"]
+mytoc: true
+
+params: --stylesheet=template.css --footnotetext --chapterlink --subdirmode
