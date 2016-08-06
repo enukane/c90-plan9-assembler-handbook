@@ -23,5 +23,6 @@ stylesheet: templaste.css
 texstyle: c90book
 texdocumentclass: ["jsbook", "uplatex,a4j,openany"]
 mytoc: true
+footnotetext: true
 
 params: --stylesheet=template.css --footnotetext --chapterlink --subdirmode
